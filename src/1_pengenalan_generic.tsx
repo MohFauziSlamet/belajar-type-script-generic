@@ -18,7 +18,7 @@ console.log(identityWithoutGeneric(42)); // 42
 console.log(identityWithoutGeneric("hello")); // "hello"
 console.log(identityWithoutGeneric(true)); // true
 
-// Analogy Dart: List<dynamic> di Dart bisa menyimpan semua tipe
+// Analogi Dart: List<dynamic> di Dart bisa menyimpan semua tipe
 // TypeScript: any sama seperti dynamic di Dart
 
 // (2) Masalah Duplikasi Fungsi
@@ -40,7 +40,7 @@ console.log("\n// (2) Hasil fungsi spesifik:");
 console.log(identityString("world")); // "world"
 console.log(identityNumber(100)); // 100
 
-// Analogy Dart: Harus buat fungsi terpisah untuk setiap tipe
+// Analogi Dart: Harus buat fungsi terpisah untuk setiap tipe
 // TypeScript: Solusi tidak efisien - duplikasi kode
 
 // (3) Solusi dengan Generic: Type Variable
@@ -58,7 +58,7 @@ console.log(identity<string>("hello")); // "hello" - explicit type
 console.log(identity(42)); // 42 - type inference
 console.log(identity(true)); // true - type inference
 
-// Analogy Dart: List<T> di Dart menggunakan generic
+// Analogi Dart: List<T> di Dart menggunakan generic
 // TypeScript: <Type> bekerja seperti T di Dart generic
 
 // (4) Type Argument Inference
@@ -82,7 +82,7 @@ console.log(loggingIdentity(stringArray)); // ["a", "b", "c"]
 // Jika inference tidak bekerja (misal: loggingIdentity(getUnknownArray())), 
 // kita perlu secara eksplisit menentukan tipe: loggingIdentity<number[]>(getUnknownArray())
 
-// Analogy Dart: List<String> di Dart - TypeScript infer string[]
+// Analogi Dart: List<String> di Dart - TypeScript infer string[]
 // TypeScript: Compiler tahu arg adalah array berdasarkan input
 
 // (5) Generic Interface
@@ -104,7 +104,7 @@ let numberIdentityFn: GenericIdentityFn<number> = identityFn;
 console.log("\n// (5) Hasil generic interface:");
 console.log(numberIdentityFn(123)); // 123
 
-// Analogy Dart: Class generic di Dart
+// Analogi Dart: Class generic di Dart
 // TypeScript: Interface bisa jadi generic seperti class di Dart
 
 // ==== RANGKUMAN ====

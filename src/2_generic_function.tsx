@@ -26,7 +26,7 @@ console.log("// (1) Hasil type inference:");
 const result = identity("hello");
 console.log(result); // "hello" (tipe: string)
 
-// Analogy Dart: Function generic di Dart
+// Analogi Dart: Function generic di Dart
 // TypeScript: <T> bekerja seperti T di Dart generic function
 
 // (2) Fungsi dengan Multiple Type Parameters
@@ -44,7 +44,7 @@ console.log(createPair("name", "John")); // { key: "name", value: "John" }
 console.log(createPair(1, "one")); // { key: 1, value: "one" }
 console.log(createPair(true, 100)); // { key: true, value: 100 }
 
-// Analogy Dart: Function dengan multiple generic types di Dart
+// Analogi Dart: Function dengan multiple generic types di Dart
 // TypeScript: <K, V> bekerja seperti dua type parameter di Dart
 
 // (3) Fungsi dengan Return Type yang Berbeda
@@ -62,7 +62,7 @@ console.log(firstElement([1, 2, 3])); // 1
 console.log(firstElement(["a", "b", "c"])); // "a"
 console.log(firstElement([])); // undefined
 
-// Analogy Dart: Function yang mengembalikan tipe yang sama dengan input di Dart
+// Analogi Dart: Function yang mengembalikan tipe yang sama dengan input di Dart
 // TypeScript: Return type T sama dengan tipe input T
 
 // (4) Fungsi dengan Constraint pada Type Parameter
@@ -84,7 +84,7 @@ console.log("\n// (4) Hasil loggingIdentity<T extends Lengthwise>:");
 console.log(loggingIdentity({ length: 10, value: "test" })); // { length: 10, value: "test" }
 console.log(loggingIdentity([1, 2, 3, 4])); // [1, 2, 3, 4]
 
-// Analogy Dart: Generic constraint di Dart (T extends List)
+// Analogi Dart: Generic constraint di Dart (T extends List)
 // TypeScript: T extends Lengthwise memastikan tipe memiliki .length property
 
 // (5) Fungsi dengan Default Type Parameter
@@ -112,7 +112,7 @@ console.log(defaultValueNumber<number>()); // 0
 console.log(defaultValueNumber<string>()); // 0 (as string)
 console.log(defaultValueNumber()); // 0 (default T = number)
 
-// Analogy Dart: Function dengan default type parameter di Dart
+// Analogi Dart: Function dengan default type parameter di Dart
 // TypeScript: T = string memberikan default tipe jika tidak ditentukan
 
 // ==== RANGKUMAN ====
