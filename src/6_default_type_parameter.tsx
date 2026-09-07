@@ -5,7 +5,7 @@
 
 // (1) Dasar Default Type Parameter
 // ==============================================
-// Di materi 2 kita sempat lihat defaultValue<T = string> singkat. Sekarang kita
+// Di materi 2 kita sempat lihat withDefault<T = string> singkat. Sekarang kita
 // dalami KAPAN default benar-benar berguna: saat T TIDAK MUNCUL di parameter —
 // TypeScript tidak punya sumber untuk menebaknya, jadi tanpa default kita
 // WAJIB menulis type argument eksplisit setiap kali memanggil.
