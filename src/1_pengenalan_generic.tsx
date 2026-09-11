@@ -1,6 +1,6 @@
 // ==== PENGANTAR TYPESCRIPT GENERIC ====
 // JUDUL: 1. PENGENALAN GENERIC (INTRODUCTION TO GENERICS)
-// REFERENSI: docs/TypeScript Generic.pdf (TypeScript Handbook - Generics)
+// REFERENSI: docs/TypeScript Generic.pdf hlm. 6, 13-16 (Programmer Zaman Now)
 // ====
 
 // (1) Masalah Tanpa Generic: any Kehilangan Info Tipe

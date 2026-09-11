@@ -1,6 +1,6 @@
 // ==== GENERIC CLASS ====
 // JUDUL: 8. GENERIC CLASS (CLASS GENERIC)
-// REFERENSI: docs/TypeScript Generic.pdf (TypeScript Handbook - Generics)
+// REFERENSI: docs/TypeScript Generic.pdf hlm. 17-21 + 29-33 (Programmer Zaman Now)
 // ====
 
 // (1) Dasar Generic Class

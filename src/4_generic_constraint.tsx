@@ -1,6 +1,6 @@
 // ==== GENERIC CONSTRAINT ====
 // JUDUL: 4. GENERIC CONSTRAINT (<T extends Bentuk>)
-// REFERENSI: docs/TypeScript Generic.pdf (TypeScript Handbook - Generics)
+// REFERENSI: docs/TypeScript Generic.pdf hlm. 38-42 (Programmer Zaman Now)
 // ====
 
 // (1) Kenapa Constraint Dibutuhkan?

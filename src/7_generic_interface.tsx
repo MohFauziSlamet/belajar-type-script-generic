@@ -1,6 +1,6 @@
 // ==== GENERIC INTERFACE ====
 // JUDUL: 7. GENERIC INTERFACE (INTERFACE GENERIC)
-// REFERENSI: docs/TypeScript Generic.pdf (TypeScript Handbook - Generics)
+// REFERENSI: TypeScript Handbook (pengayaan — topik tidak ada di PDF kelas)
 // ====
 
 // (1) Dasar: Generic Interface untuk Bentuk Data

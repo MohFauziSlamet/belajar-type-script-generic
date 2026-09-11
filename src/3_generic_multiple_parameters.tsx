@@ -1,6 +1,6 @@
 // ==== GENERIC MULTIPLE TYPE PARAMETERS ====
 // JUDUL: 3. GENERIC DENGAN MULTIPLE TYPE PARAMETERS (<T, U>)
-// REFERENSI: docs/TypeScript Generic.pdf (TypeScript Handbook - Generics)
+// REFERENSI: docs/TypeScript Generic.pdf hlm. 25-28 (Programmer Zaman Now)
 // ====
 
 // (1) Dasar Multiple Type Parameters

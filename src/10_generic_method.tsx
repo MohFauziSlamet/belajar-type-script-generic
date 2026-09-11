@@ -1,6 +1,6 @@
 // ==== GENERIC METHOD DALAM CLASS ====
 // JUDUL: 10. GENERIC METHOD DALAM CLASS (METHOD GENERIC)
-// REFERENSI: docs/TypeScript Generic.pdf (TypeScript Handbook - Generics)
+// REFERENSI: TypeScript Handbook (pengayaan — topik tidak ada di PDF kelas)
 // ====
 
 // (1) Method Generic di Class Biasa (Non-Generic)

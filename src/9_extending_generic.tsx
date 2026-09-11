@@ -1,6 +1,6 @@
 // ==== EXTENDING GENERIC CLASS / INTERFACE ====
 // JUDUL: 9. EXTENDING GENERIC CLASS / INTERFACE (PEWARISAN GENERIC)
-// REFERENSI: docs/TypeScript Generic.pdf (TypeScript Handbook - Generics)
+// REFERENSI: TypeScript Handbook (pengayaan — topik tidak ada di PDF kelas)
 // ====
 
 // (1) Interface extends Interface Generic

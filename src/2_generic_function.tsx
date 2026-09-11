@@ -1,6 +1,6 @@
 // ==== GENERIC FUNCTION ====
 // JUDUL: 2. GENERIC FUNCTION (FUNGSI GENERIC)
-// REFERENSI: docs/TypeScript Generic.pdf (TypeScript Handbook - Generics)
+// REFERENSI: docs/TypeScript Generic.pdf hlm. 22-24 (Programmer Zaman Now)
 // ====
 
 // (1) Fungsi Generic Dasar

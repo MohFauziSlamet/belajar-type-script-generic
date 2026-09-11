@@ -65,25 +65,35 @@ Bahasa komunikasi utama: **Bahasa Indonesia**.
 ## Peta Kurikulum & Progres
 Legenda: [x] selesai · [ ] belum
 
-### Kurikulum Generic
-> **CATATAN PENTING**: silabus di bawah adalah KERANGKA PROVISORIS —
-> PDF resmi (kelas lanjutan Programmer Zaman Now, kemungkinan judul
-> "TypeScript Lanjutan": bab Generic + Decorator; vault OOP sesi 67
-> menyebut hlm. 95-96) **BELUM tersedia** di `docs/`. FINALISASI daftar
-> ini setelah PDF ditempatkan — jangan mengarang nomor halaman/konten
-> sebelum PDF diekstrak.
+### Kurikulum Generic (FINAL — diselaraskan dengan PDF kelas, sesi 16 / 2026-09-10)
+> Sumber resmi: `docs/TypeScript Generic.pdf` — kelas "TypeScript Generic"
+> Programmer Zaman Now (Eko Kurniawan Khannedy), 55 halaman, diekstrak via pypdf.
+> Daftar isi PDF: konsep generic & masalah any (hlm. 6, 13-16), setup project (7-12),
+> Generic Class (17-21), Generic Function (22-24), Multiple Generic Type (25-28),
+> Optional Generic Type / inference constructor (29-33), Generic Parameter Default
+> (34-37), Generic Constraint (38-42), Generic Collection Array/Set/Map (43-50),
+> Generic Promise (51-54), penutup (55).
 
-- [ ] Pengenalan Generic (masalah tanpa generic: any vs union, duplikasi fungsi)
-- [ ] Generic Function (`function nama<T>(param: T): T`)
-- [ ] Generic dengan Multiple Type Parameters (`<T, U>`)
-- [ ] Generic Constraint (`<T extends Bentuk>`)
-- [ ] Constraint `keyof` (`<T, K extends keyof T>`)
-- [ ] Default Type Parameter (`<T = string>`)
-- [ ] Generic Interface
-- [ ] Generic Class
-- [ ] Extending Generic Class / Interface
-- [ ] Generic Method dalam Class
-- (mengikuti daftar isi PDF saat tersedia)
+Materi inti (10/10 selesai — semua direview 2 subagent):
+- [x] 1. Pengenalan Generic — PDF hlm. 6, 13-16
+- [x] 2. Generic Function — PDF hlm. 22-24
+- [x] 3. Generic dengan Multiple Type Parameters — PDF hlm. 25-28
+- [x] 4. Generic Constraint — PDF hlm. 38-42
+- [x] 5. Constraint `keyof` — pengayaan TypeScript Handbook (tidak ada di PDF)
+- [x] 6. Default Type Parameter — PDF hlm. 34-37
+- [x] 7. Generic Interface — pengayaan TypeScript Handbook (tidak ada di PDF)
+- [x] 8. Generic Class — PDF hlm. 17-21 + 29-33 (termasuk inference constructor)
+- [x] 9. Extending Generic Class/Interface — pengayaan (tidak ada di PDF)
+- [x] 10. Generic Method dalam Class — pengayaan (tidak ada di PDF)
+
+Latihan review (20/20 selesai — semua direview 2 subagent):
+- [x] beginner b1-b5 (scope materi 1-3) · middle m1-m5 (4-6) ·
+      advance a1-a5 (7-8) · expert e1-e5 (9-10 + capstone)
+
+Gap PDF yang belum jadi materi (kandidat lanjutan — menunggu arahan user):
+- [ ] Generic Collection: `Set<T>` (Array<T> & Map<K,V> sudah tercakup
+      di materi/latihan) — PDF hlm. 43-50
+- [ ] Generic Promise: `Promise<T>` (analogi `Future<T>` Dart) — PDF hlm. 51-54
 
 ### Prasyarat (sudah ditempuh di repo lain)
 - TypeScript Dasar 34/34 — `../belajar-type-script-dasar/`

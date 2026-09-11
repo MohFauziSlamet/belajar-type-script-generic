@@ -1,6 +1,6 @@
 // ==== DEFAULT TYPE PARAMETER ====
 // JUDUL: 6. DEFAULT TYPE PARAMETER (<T = string>)
-// REFERENSI: docs/TypeScript Generic.pdf (TypeScript Handbook - Generics)
+// REFERENSI: docs/TypeScript Generic.pdf hlm. 34-37 (Programmer Zaman Now)
 // ====
 
 // (1) Dasar Default Type Parameter
